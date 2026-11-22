@@ -1,0 +1,35 @@
+{
+    "gridApps": [
+        {
+            "page": 0,
+            "apps": [
+                {
+                    "icon": "Music.png",
+                    "componentAlias": "",
+                    "name": "Music",
+                    "isDisabled": false
+                },
+                {
+                    "icon": "Weather.png",
+                    "componentAlias": "",
+                    "name": "Weather",
+                    "isDisabled": true
+                }
+            ]
+        }
+    ],
+    "dockApps": [
+        {
+            "icon": "Pictures.png",
+            "componentAlias": "",
+            "name": "Pictures",
+            "isDisabled": false
+        },
+        {
+            "icon": "Chat.png",
+            "componentAlias": "",
+            "name": "Chat",
+            "isDisabled": false
+        }
+    ]
+}

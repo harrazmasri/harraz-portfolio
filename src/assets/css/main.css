@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@font-face {
+    font-family: "SF-Pro-Rounded-Medium";
+    src: url("/src/assets/fonts/SF-Pro-Rounded-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Rounded-Regular";
+    src: url("/src/assets/fonts/SF-Pro-Rounded-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Rounded-Semibold";
+    src: url("/src/assets/fonts/SF-Pro-Rounded-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Rounded-Bold";
+    src: url("/src/assets/fonts/SF-Pro-Rounded-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Display-Medium";
+    src: url("/src/assets/fonts/SF-Pro-Display-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Display-Regular";
+    src: url("/src/assets/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Display-Semibold";
+    src: url("/src/assets/fonts/SF-Pro-Display-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Display-Bold";
+    src: url("/src/assets/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Display-Heavy";
+    src: url("/src/assets/fonts/SF-Pro-Display-Heavy.otf") format("opentype");
+}
+
+@theme {
+    --font-sf-pro-rounded: "SF-Pro-Rounded-Medium", sans-serif;
+    --font-sf-pro-rounded-semibold: "SF-Pro-Rounded-Semibold", sans-serif;
+    --font-sf-pro-rounded-bold: "SF-Pro-Rounded-Bold", sans-serif;
+
+    --font-sf-pro-display: "SF-Pro-Display-Medium", sans-serif;
+    --font-sf-pro-display-semibold: "SF-Pro-Display-Semibold", sans-serif;
+    --font-sf-pro-display-bold: "SF-Pro-Display-Bold", sans-serif;
+    --font-sf-pro-display-heavy: "SF-Pro-Display-Heavy", sans-serif;
+}
